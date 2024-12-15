@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class TimeSegment {
+
     private LocalDateTime startTime;
     private LocalDateTime endTime;
 
