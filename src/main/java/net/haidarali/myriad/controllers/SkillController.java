@@ -18,5 +18,4 @@ public class SkillController {
         logger.info(skill.toString());
         return ResponseEntity.ok().body(skill);
     }
-
 }

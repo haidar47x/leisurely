@@ -26,5 +26,4 @@ public class UserController {
         user.setUsername(user.getUsername());
         return ResponseEntity.accepted().body(user);
     }
-
 }
