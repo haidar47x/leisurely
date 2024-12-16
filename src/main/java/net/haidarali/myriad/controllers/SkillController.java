@@ -2,7 +2,6 @@ package net.haidarali.myriad.controllers;
 
 import net.haidarali.myriad.models.Skill;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +15,7 @@ public class SkillController {
 
     @PostMapping("/skill")
     public ResponseEntity<Skill> createSkill(@RequestBody Skill skill) {
+        logger.info(skill.toString());
         return ResponseEntity.ok().body(skill);
     }
 
