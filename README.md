@@ -10,7 +10,7 @@ Self-hosted time tracker for mastering any skill. Based on the Malcolm Gladwell'
 
 *TODO*
 
-## Checlist
+## Checklist
 
 *TODO*
 
