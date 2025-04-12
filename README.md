@@ -1,18 +1,34 @@
-# Myriad
+# leisurely
 
-Self-hosted time tracker for mastering any skill. Based on the Malcolm Gladwell's 10,000-Hour Rule.
+An Electron application with React and TypeScript
 
-## Installation
+## Recommended IDE Setup
 
-*TODO*
+- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-## Development
+## Project Setup
 
-*TODO*
+### Install
 
-## Checklist
+```bash
+$ npm install
+```
 
-*TODO*
+### Development
 
-## License
-[MIT](./LICENSE)
+```bash
+$ npm run dev
+```
+
+### Build
+
+```bash
+# For windows
+$ npm run build:win
+
+# For macOS
+$ npm run build:mac
+
+# For Linux
+$ npm run build:linux
+```
